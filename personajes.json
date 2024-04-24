@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Abomination",
+    "description": "",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Absorbing Man",
+    "description": "If the last card you played has an On Reveal, copy its text. (if it’s in play)",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Adam Warlock",
+    "description": "At the end of each turn, if you are winning this location, draw a card.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Aero",
+    "description": "On Reveal: Move the last enemy card played anywhere to this location.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Agatha Harkness",
+    "description": "Agatha starts in your hand and plays your cards for you.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Agent 13",
+    "description": "On Reveal: Add a random card to your hand.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Agent Coulson",
+    "description": "On Reveal: Add a random 4-cost and 5-cost card to your hand.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Alioth",
+    "description": "On Reveal: Destroy all unrevealed enemy cards here.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Altar of Death",
+    "description": "When you play a card here, destroy it to get +2 Energy next turn.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "America Chavez",
+    "description": "On Reveal: Give the top card of your deck +2 Power.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Angel",
+    "description": "When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Angela",
+    "description": "After you play a card here, +1 Power.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Annihilus",
+    "description": "On Reveal: Your cards with Power below 0 switch sides. Destroy those that can’t.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Ant-Man",
+    "description": "Ongoing: If your side of this location is full, +4 Power.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Apocalypse",
+    "description": "When you discard this, put it back with +4 Power.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Armor",
+    "description": "Ongoing: Cards here can’t be destroyed.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Arnim Zola",
+    "description": "On Reveal: Destroy one of your other cards here to copy it at the other locations.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Asgard",
+    "description": "After turn 4, whoever is winning here draws 2 cards.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Asteroid M",
+    "description": "After you play a 3 or 4-Cost card, move it here.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  },
+  {
+    "title": "Atlantis",
+    "description": "If you only have one card here, it has +5 Power.",
+    "img": "https://images.marvelsnap.io/images/assets/CardBack.jpg"
+  }
+]
