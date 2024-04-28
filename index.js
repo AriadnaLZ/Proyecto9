@@ -11,24 +11,19 @@ const page = await browser.newPage()
 await page.goto(url)
 await page.setViewport({width: 1080, height: 1024})
 
-repeatScrapper(page)
-// write(charactersArray)
-}
-
-const repeatScrapper = async (page) => {
-  const arrayDivs = await page.$$('#item-area')
+const arrayDivs = await page.$$('.simple-card')
 for (const characterDiv of arrayDivs) {
-let description
-let img 
+  let description
+  let img 
   let title
 
    try {
-    title =   await characterDiv.$eval('.item-name', (el) => el.textContent)
+    title =   await characterDiv.$eval('.cardname', (el) => el.textContent)
    } catch (error) {
     title = ' '
    }
-  try {
-    description = await characterDiv.$eval('.item-ability', (el) => el.textContent)
+  try { 
+    description = await characterDiv.$eval('.card-description', (el) => el.textContent)
   } catch (error) {
     description = ' '
   }
@@ -47,13 +42,13 @@ let img
   }
 
   charactersArray.push(character)
-  console.log(character)
+
 }
-await page.$eval('[title="Next Page"]', (el) => el.click())
-await page.waitForNavigation()
-console.log('Pasamos a la siguiente página')
-repeatScrapper(page)
+
+
+write(charactersArray)
 }
+
 
 const write = (charactersArray) => {
   fs.writeFile('personajes.json', JSON.stringify(charactersArray), () => {
@@ -62,4 +57,4 @@ const write = (charactersArray) => {
 }
 
 
-scrapper('https://marvelsnap.io/card-database/?&sort=name&limit=20&offset=0')
+scrapper('https://marvelsnapzone.com/cards/')
